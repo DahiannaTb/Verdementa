@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.menos , .mas , .carrito , .ircata{
+    background-color: rgba(147, 209, 204, 0.747);
+}
+
+@media (max-width:500px) {
+    .descripcion{
+        display: none;
+    }
+
+
+
+    
+}
+
+.mastheadheader2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../assets/img/header2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+
+
